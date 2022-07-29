@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\user1\\Desktop\\Prog Folder\\CodeBoxx\\7W - Create API\\restApi\\TodoApi\\TodoApi.csproj": {}
+    "C:\\Users\\user1\\Desktop\\Prog Folder\\CodeBoxx\\7W - Create API\\rest api 2\\TodoApi\\TodoApi.csproj": {}
   },
   "projects": {
-    "C:\\Users\\user1\\Desktop\\Prog Folder\\CodeBoxx\\7W - Create API\\restApi\\TodoApi\\TodoApi.csproj": {
+    "C:\\Users\\user1\\Desktop\\Prog Folder\\CodeBoxx\\7W - Create API\\rest api 2\\TodoApi\\TodoApi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\user1\\Desktop\\Prog Folder\\CodeBoxx\\7W - Create API\\restApi\\TodoApi\\TodoApi.csproj",
+        "projectUniqueName": "C:\\Users\\user1\\Desktop\\Prog Folder\\CodeBoxx\\7W - Create API\\rest api 2\\TodoApi\\TodoApi.csproj",
         "projectName": "TodoApi",
-        "projectPath": "C:\\Users\\user1\\Desktop\\Prog Folder\\CodeBoxx\\7W - Create API\\restApi\\TodoApi\\TodoApi.csproj",
+        "projectPath": "C:\\Users\\user1\\Desktop\\Prog Folder\\CodeBoxx\\7W - Create API\\rest api 2\\TodoApi\\TodoApi.csproj",
         "packagesPath": "C:\\Users\\user1\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\user1\\Desktop\\Prog Folder\\CodeBoxx\\7W - Create API\\restApi\\TodoApi\\obj\\",
+        "outputPath": "C:\\Users\\user1\\Desktop\\Prog Folder\\CodeBoxx\\7W - Create API\\rest api 2\\TodoApi\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\user1\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -38,13 +38,37 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "dependencies": {
-            "Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore": {
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
               "target": "Package",
               "version": "[6.0.7, )"
             },
             "Microsoft.EntityFrameworkCore.InMemory": {
               "target": "Package",
               "version": "[6.0.7, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[6.0.7, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.7, )"
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[6.0.7, )"
+            },
+            "MySql.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.1, )"
+            },
+            "Pomelo.EntityFrameworkCore.MySql": {
+              "target": "Package",
+              "version": "[6.0.1, )"
             },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
