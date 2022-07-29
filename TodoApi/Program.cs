@@ -15,7 +15,7 @@ builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
 builder.Services.AddDbContext<ApplicationContext>(options =>
-options.UseMySQL(builder.Configuration.GetConnectionString("DefaultConnection")));
+options.UseMySQL(builder.Configuration.GetConnectionString("RealConnection")));
 
 //builder.Services.AddSwaggerGen(c =>
 //{
