@@ -18,7 +18,9 @@ Database steps - MarcosLopez :
   3. Open Postman.
   
 Postman steps :
+  
   These 3 commands should work :
+    
     GET https://chilisincarne-apis.herokuapp.com/api/interventions
       *Gives back only the one with no start time/date and "Pending" status.
     PUT https://chilisincarne-apis.herokuapp.com/api/interventions/{id}
