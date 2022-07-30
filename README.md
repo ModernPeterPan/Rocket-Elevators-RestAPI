@@ -22,7 +22,7 @@ Postman steps :
   These 3 commands should work :
     
     GET https://chilisincarne-apis.herokuapp.com/api/interventions
-      *Gives back only the one with no start time/date and "Pending" status.
+      *Gives back only the ones with no start time/date and "Pending" status.
     PUT https://chilisincarne-apis.herokuapp.com/api/interventions/{id}
       *If the status is "Pending"; it'll will update the ID chosen to "InProgress" with a text confirmation.
     PUT https://chilisincarne-apis.herokuapp.com/api/interventions/{id}/InProgress
